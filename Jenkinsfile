@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo "My pipline job with jenkinsfile"
-                sh 'echo jenkins-github-webhook job'
+                sh 'echo jenkins Poll SCM job'
                 sh 'python --version'
                 sh 'python pipeline.py'
                 
